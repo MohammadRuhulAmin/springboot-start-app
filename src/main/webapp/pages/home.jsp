@@ -7,6 +7,11 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<h1>Hi Spring Boot! Welcome.... </h1>
+	<h1>Hi Spring Boot! Welcome.... ${name } </h1> 
+	<ul>
+		<li>${obj.aid }</li>
+		<li>${obj.aname }</li>
+		<li>${obj.lang }</li>
+	</ul>
 </body>
 </html>
